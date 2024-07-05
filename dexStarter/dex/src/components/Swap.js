@@ -85,7 +85,7 @@ function Swap(props) {
 
   async function fetchPrices(one, two){
 
-      const res = await axios.get(`http://localhost:3001/tokenPrice`, {
+      const res = await axios.get(`https://web-3-dex-app.vercel.app/tokenPrice`, {
         params: {addressOne: one, addressTwo: two}
       })
 
