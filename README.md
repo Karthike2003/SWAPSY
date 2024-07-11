@@ -1,61 +1,67 @@
-Web3 Decentralized Exchange
-Overview
-This project is a fully functional Web3 Decentralized Exchange (DEX) allowing users to swap ERC20 tokens on a selected EVM chain.
+# Web3 Decentralized Exchange
 
-Tech Stack
-Frontend: React, Wagmi
-Backend: NodeJS
-APIs: Moralis Web3 API, 1Inch Aggregator
-Features
-Swap ERC20 tokens with ease
-Real-time price data using 1Inch Aggregator
-Secure and decentralized transaction handling
-User-friendly interface built with React
-Backend support using NodeJS
-Integration with Moralis Web3 API for blockchain interactions
-Wallet management and connectivity using Wagmi
-Installation
-Prerequisites
-Node.js (v14+)
-npm or yarn
-Metamask or any web3 wallet
+## Overview
 
-Steps
-Clone the Repository
+This project is a fully functional **Web3 Decentralized Exchange (DEX)**, allowing users to swap ERC20 tokens on a selected EVM chain.
 
-bash
-Copy code
-git clone https://github.com/yourusername/web3-dex.git
-cd web3-dex
-Install Dependencies
+## Tech Stack
 
-bash
-Copy code
-npm install
-# or
-yarn install
+- **Frontend**: React, Wagmi
+- **Backend**: NodeJS
+- **APIs**: Moralis Web3 API, 1Inch Aggregator
 
-Set Up Environment Variables
+## Features
 
-Create a .env file in the root directory:
+- Swap ERC20 tokens
+- Real-time price data
+- Secure, decentralized transactions
+- User-friendly interface
+- Wallet management
 
-plaintext
-Copy code
-MORALIS_KEY= your-moralis-api-key
+## Installation
 
-Run the Application
+### Prerequisites
 
-bash
-Copy code
-npm start
-# or
-yarn start
+- Node.js (v14+)
+- npm or yarn
+- Metamask or any web3 wallet
+
+### Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Karthike2003/WEB3-DEX-APP.git
+   cd dexStarter
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+
+3. **Set Up Environment Variables**
+    ```bash
+     MORALIS_KEY= your-moralis-api-key
+
+4.  **Run the Apllication**
+     ```bash
+      npm start
+       # or
+      yarn start
+
+  ## Usage
+
+1. **Connect Wallet**
+
+   - Click "Connect Wallet" and connect your Metamask or supported web3 wallet.
+
+2. **Swap Tokens**
+
+   - Select the tokens you want to swap.
+   - Enter the amount, review the details, and confirm the swap.
+  
+  ## License
+   This project is licensed under the MIT License.
 
 
-Usage
-Connect Wallet: Click "Connect Wallet" and connect your Metamask or supported web3 wallet.
-Swap Tokens: Select tokens, enter the amount, review, and confirm the swap.
 
-
-License
-This project is licensed under the MIT License.
