@@ -1,4 +1,4 @@
-# Web3 Decentralized Exchange
+# SWAPSY - Decentralized Exchange
 
 ## Overview
 
